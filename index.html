@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List 🛒</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="shopping.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="left">
+            <h1>🛒 Build a Grocery List</h1>
+            <div>
+                <label for="item">Grocery Item</label>
+                <input type="text" name="item" id="item">
+            </div>
+            <div>
+                <label for="department">Choose a Department</label>
+                <select name="department" id="department">
+                    <option value="🥣" selected>Other</option>
+                    <option value="🫑">Vegatable</option>
+                    <option value="🍋">Fruit</option>
+                    <option value="🥛">Diary</option>
+                    <option value="🥩">Meat</option>
+                    <option value="🦞">Seafood</option>
+                    <option value="🍞">Bakery</option>
+                    <option value="🥪">Deli</option>
+                </select>
+            </div>
+            <div>
+                <button id="add-btn">Add to List</button>
+            </div>
+        </div>
+        <div class="right">
+            <h2>My Grocery List</h2>
+        </div>
+    </div>
+</body>
+</html>
